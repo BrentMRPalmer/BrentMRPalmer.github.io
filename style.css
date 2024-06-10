@@ -1,0 +1,158 @@
+.navbar-custom {
+    background-color: #343434 !important;
+    font-family: 'Lexend Zetta' !important;
+}
+
+ /* Modify brand and text color */
+ .navbar-custom .navbar-brand,
+ .navbar-custom .navbar-text,
+ .navbar-custom .nav-link {
+     color: #EBCCD1;
+ }
+
+ .navbar-custom .nav-link:hover {
+    color: white !important;
+ }
+
+body {
+    background-color: #FFEFEF;
+}
+
+h1 {
+    font-family: 'Lexend Zetta';
+}
+
+h3 {
+    font-family: 'Lexend Zetta';
+}
+
+p {
+    font-family: 'Lexend Zetta';
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 8em;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 4em;
+}
+
+.booking-section {
+    margin-bottom: 2em;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.text-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1em;
+}
+
+.footer-wrapper {
+    background-color: #343434;
+    display: grid;
+    align-items: center;
+}
+
+.footer-container {
+    background-color: #343434;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 1em;
+    margin: 2em;
+}
+
+.footer-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 1em;
+}
+
+.footer-item {
+    font-family: 'Lexend Zetta';
+    font-size: 1em;
+    color: #EBCCD1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1em;
+}
+
+.grid-item-dev {
+    background-color: lightblue;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.grid-item {
+    font-family: 'Lexend Zetta';
+    font-size: 1em;
+    color: black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.grid-pair {
+    font-family: 'Lexend Zetta';
+    font-size: 1em;
+    color: black;
+    justify-content: left;
+    align-items: center;
+}
+
+.wrapper {
+    margin: 4em 20em;
+}
+
+.rounded-image {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    grid-column: 1/3;
+}
+
+.services-header {
+    grid-column: 1/4;
+}
+
+.overlay-text {
+    position: absolute;
+    font-family: 'Lexend Zetta';
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.centered-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-body {
+    background-color: #343434;
+    color:#FFEFEF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 0px 15px 15px;
+}
